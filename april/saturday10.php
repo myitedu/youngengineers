@@ -8,6 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-HELLO Danya!
+
+<div id="mytv">
+    <iframe id="myyoutube"  src="https://www.youtube.com/embed/7vQznLKEfBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<style>
+
+    #myyoutube{
+        width: 310px;
+        height: 185px;
+        position: relative;
+        top: 174px;
+        left: 450px;
+    }
+
+    #mytv{
+        width: 1200px;
+        height: 850px;
+        background-color: black;
+        margin: auto;
+        background-image: url("https://blog.sanus.com/hs-fs/hubfs/family%20friendly%20TV%20room.jpg?width=775&name=family%20friendly%20TV%20room.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: 5px solid black;
+    }
+</style>
+
 </body>
 </html>
